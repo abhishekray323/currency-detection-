@@ -39,6 +39,7 @@ In this we try to estimate the pixel values of missing pixels by using the inten
 In order to remove the noise in image. Gaussian blur is performed. Convolving the image with a Gaussian function is performed when a Gaussian blur is applied. 
 ## 3. Main theme of the work 
 Major Concept which distinguishes fake notes from real is “Real notes has its thin strips to be more or less continuous while fake strips has fragmented line in the strip”. So we will try to detect the strip itself first, then we count how many lines we see. If we see only one line fragment then we consider it is real otherwise fake. 
+
 Step 1: Read in the image We use Imread() function reading images. 
 
 Step 2: Decompose image into HSV and analyse This is the pre-processing step, in which we transform the image into HSV and locate each component separately. 
