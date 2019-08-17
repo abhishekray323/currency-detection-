@@ -1,0 +1,2 @@
+The total number of black lines for the real note is: 1
+The total number of black lines for the fake note is: 4
