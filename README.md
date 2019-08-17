@@ -53,8 +53,9 @@ Step 5: Noise Removal We can notice that for each of the images there are some n
 Step 6: Count the number of black line 
 This is the last step which involves simply counting the number of black lines in each image. If there is just one, this denotes the bank note is real, while if there is more than this says the bank note is fake. We can use bwlabel() and use the second parameter to count the number of objects.
 ## 4. Results We have used following images as input: 
-note1.jpg 
-note2.jpg 
+[note1.jpg](https://github.com/abhishekray323/currency-detection-/blob/master/input_images/note1.jpg)
+
+[note2.jpg](https://github.com/abhishekray323/currency-detection-/blob/master/input_images/note2.jpg)
 We have got the final output as: 
 The total number of black lines present in the real note is: 1 
 The total number of black lines present in the fake note is: 4 
